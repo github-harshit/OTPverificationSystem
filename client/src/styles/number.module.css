@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600;700&family=Manrope:wght@400;700&family=Poppins&family=Roboto+Serif:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+   background-color: white; 
+    width: 430px;
+    margin: 0px auto;
+    height: 70%;
+
+  
+}
+.imageContainer{
+   width: 70%;
+   height: 50px;
+   margin: 100px auto;
+  
+}
+.image{
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+}
+.box{
+   width: 70%;
+   height: 100px;
+   margin: 0px auto;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ 
+}
+.heading{
+   color: #000;
+   font-family: Work Sans;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+    
+}
+.para{
+   color: #666;
+   font-family: Work Sans;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-top: -10px;
+}
+.formGroup { 
+    
+   width: 100%;
+   margin: 50px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+   
+
+}
+.form{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+.input{
+    display: flex;
+    align-items: center;
+    width: 90%; 
+   height: 44px;
+   border-radius: 5px;
+   border: 1px solid #FFD37D;
+}
+.code{
+   width: 20%;
+   height: 100%;
+   
+    
+}
+.code select{
+    width: 90%;
+    border: none;
+    height: 90%;
+    outline: none;
+  
+}
+.code option {
+    color: #FFD37D;;
+}
+
+
+.flagContainer{
+     width: 21px;
+    height: 13px;
+
+   
+}
+.flag{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   
+}
+.number{
+   width: 80%;
+   height: 100%;
+    
+}
+.number input {
+    width: 90%;
+    border: none;
+    height: 90%;
+    outline: none;
+}
+.boxPara {
+   margin-top:30px; 
+   color: #999;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.btn{
+   width: 200px;
+   height: 36px;
+   margin: 50px auto;
+   border-radius: 100px;
+   background: #F7B348;
+   cursor: pointer;
+}
+@media (max-width :430px) {
+   .container{
+        width: 100%;
+        border: 1px solid black;
+        background-color: #fff;
+       
+        
+   }
+   .imageContainer{
+        width: 90%;
+        height: 50px;
+        margin: 100px auto;
+   }
+  
+   
+   
+
+   
+}
