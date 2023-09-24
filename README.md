@@ -45,10 +45,17 @@ The backend server should now be running at http://localhost:5000.
 Once both the frontend and backend are up and running, you can access the OTP verification system by visiting http://localhost:3000 in your web browser. Users can enter their mobile numbers and receive OTPs for verification.
 Only verified user can move to home page 
 
+
+
+
 ### Screenshots
 ![Screenshot (67)](https://github.com/github-harshit/OTPverificationSystem/assets/55291690/8ea1ac63-32f0-49a5-a913-93ff46affc2a)
 ![Screenshot (70)](https://github.com/github-harshit/OTPverificationSystem/assets/55291690/4d0e58bc-7074-44dd-b471-024d47adfe47)
 ![Screenshot (69)](https://github.com/github-harshit/OTPverificationSystem/assets/55291690/4bf4254c-90d1-466d-abfa-aec7ec00322c)
+
+
+
+https://github.com/github-harshit/OTPverificationSystem/assets/55291690/a7bf7187-7667-4c37-b8ac-f146a004b2ab
 
 
 
